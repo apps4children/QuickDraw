@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.quickdraw"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.quickdraw.GeometryShapesActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.quickdraw.Play"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.quickdraw.Hut"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.quickdraw.Rocket"
+            android:screenOrientation="landscape" >
+        </activity>
+             <activity
+            android:name="com.quickdraw.Bus"
+            android:screenOrientation="landscape" >
+        </activity>
+             <activity
+            android:name="com.quickdraw.Plane"
+            android:screenOrientation="landscape" >
+        </activity>
+             <activity
+            android:name="com.quickdraw.Badminton"
+            android:screenOrientation="landscape" >
+        </activity>
+             <activity
+            android:name="com.quickdraw.Butterfly"
+            android:screenOrientation="landscape" >
+        </activity>
+             <activity
+            android:name="com.quickdraw.Boat"
+            android:screenOrientation="landscape" >
+        </activity>
+             <activity
+            android:name="com.quickdraw.Train"
+            android:screenOrientation="landscape" >
+        </activity>
+              <activity
+            android:name="com.quickdraw.Truck"
+            android:screenOrientation="landscape" >
+        </activity>
+             <activity
+            android:name="com.quickdraw.GameOverActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+            <activity
+            android:name="com.quickdraw.Instructions"
+            android:screenOrientation="landscape" >
+        </activity>
+           <activity
+            android:name="com.quickdraw.Level2"
+            android:screenOrientation="landscape" >
+        </activity>
+            </application>
+
+</manifest>

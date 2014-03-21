@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+    
+ <RelativeLayout
+     android:id="@+id/layoutBus"
+     android:layout_alignParentTop="true"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="@drawable/header">
+    
+     <Button
+     android:id="@+id/back"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentLeft="true"
+     android:layout_alignParentTop="true"
+     android:background="@drawable/back"/>
+         
+    <Button
+     android:id="@+id/next"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentTop="true"
+     android:background="@drawable/next1"
+     android:layout_alignParentRight="true"
+     android:layout_marginLeft="20dp" />
+    
+ </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutBus"
+        android:gravity="center">
+     <ImageView
+        android:id="@+id/middle"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/transparent1" />
+ 
+        <ImageView
+        android:id="@+id/sampleImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/middle"
+        android:src="@drawable/bus" />
+      
+    <TableLayout
+        android:id="@+id/tableBus"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/middle"
+        android:layout_marginTop="50dp">        
+    
+      <!-- Row 1 with single column -->
+      <TableRow 
+        android:id="@+id/tableRow1" 
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content">  
+
+        <RelativeLayout
+            android:id="@+id/bus_mid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:gravity="center"
+            android:background="@drawable/top_rec">
+            
+        <ImageView
+            android:id="@+id/winLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/transparent2"/>
+
+        <ImageView
+            android:id="@+id/winRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/winLeft"
+            android:src="@drawable/transparent2"/>
+        </RelativeLayout>
+        </TableRow> 
+      
+      
+      <!-- Row 2 with single column -->
+      <TableRow 
+        android:id="@+id/tableRow2" 
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content">  
+        <ImageView
+            android:id="@+id/centerRect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/transparent1"/>
+        </TableRow> 
+        
+       <!--Row 3 with single column -->
+       <TableRow 
+        android:id="@+id/tableRow3" 
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content">  
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+        <ImageView
+            android:id="@+id/tyreLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/transparent1"/>
+        <ImageView
+            android:id="@+id/tyreRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_toRightOf="@+id/tyreLeft"
+            android:src="@drawable/transparent1"/>
+        </RelativeLayout>
+        </TableRow>           
+      </TableLayout>
+              <TableLayout
+        android:id="@+id/table1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#90EE90" >
+    
+         <TableRow
+            android:id="@+id/row5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/transparent1" />
+
+           <ImageView
+                android:id="@+id/img2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/transparent1" />
+            
+           <ImageView
+                android:id="@+id/img3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/transparent1" />
+            
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/transparent1" />
+            
+           <ImageView
+                android:id="@+id/img5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/transparent1" />
+            
+           <ImageView
+                android:id="@+id/img6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/transparent1" />
+           <ImageView
+                android:id="@+id/img7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/transparent1" />
+           <ImageView
+                android:id="@+id/img8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/transparent1" />
+           </TableRow>     
+             
+         </TableLayout>
+    </RelativeLayout>  
+</RelativeLayout>

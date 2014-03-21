@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+    
+ <RelativeLayout
+     android:id="@+id/layoutHut"
+     android:layout_alignParentTop="true"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="@drawable/header">
+    
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/back" />
+    
+    <Button
+     android:id="@+id/next"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentTop="true"
+     android:background="@drawable/next1"
+     android:layout_alignParentRight="true"
+     android:layout_marginLeft="20dp" />
+    
+ </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutHut" >
+     <ImageView
+        android:id="@+id/middle"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/transparent1" />
+ 
+        <ImageView
+        android:id="@+id/sampleImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/middle"
+        android:src="@drawable/hut" />
+      
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/middle"
+        android:layout_marginTop="30dp" >        
+    
+      <!-- Row 1 with single column -->
+      <TableRow 
+        android:id="@+id/tableRow1" 
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content">  
+
+        <ImageView
+            android:id="@+id/hut_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/transparent1"
+            android:layout_gravity="center" /> 
+       </TableRow> 
+      
+      
+      <!-- Row 2 with single column -->
+      <TableRow 
+        android:id="@+id/tableRow2" 
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content">  
+        <RelativeLayout
+            android:id="@+id/hut_mid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:gravity="center"
+            android:background="@drawable/hut_mid">
+            
+       <ImageView
+            android:id="@+id/window1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/transparent1"/>
+
+       <ImageView
+            android:id="@+id/window2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/window1"
+            android:src="@drawable/transparent1"/>
+       
+       </RelativeLayout>
+        </TableRow> 
+        
+       <!--Row 3 with single column -->
+      </TableLayout>
+              <TableLayout
+        android:id="@+id/table2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#90EE90" >
+    
+         <TableRow
+            android:id="@+id/row5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/transparent1" />
+
+           <ImageView
+                android:id="@+id/img2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/transparent1" />
+            
+           <ImageView
+                android:id="@+id/img3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/transparent1" />
+            
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/transparent1" />
+            
+           <ImageView
+                android:id="@+id/img5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/transparent1" />
+            
+           <ImageView
+                android:id="@+id/img6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/transparent1" />
+
+          <ImageView
+                android:id="@+id/img7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/transparent1" />
+           </TableRow>     
+             
+         </TableLayout>
+    </RelativeLayout>  
+</RelativeLayout>

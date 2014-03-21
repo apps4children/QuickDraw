@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QuickDraw</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="make_shapes">Make the Drawing with the Shapes</string>
+    <string name="rule">How To Play The Game</string>
+    <string name="level1">पहला स्तर </string>
+    <string name="level1_des">दिए हुए चित्र को देखकर, खाली जगह में उसे बनाने की कोशिश करेंI\nनीचे दिए हुए आकारों को जोड़कर बाएँ तरफ बने हुए चित्र जैसा बनायेंI </string>
+    <string name="level2">दूसरा स्तर </string>
+    <string name="level2_des">दिए गए आकारों की मदद से खुद से कोई चित्र बनाएंI</string>
+
+</resources>
